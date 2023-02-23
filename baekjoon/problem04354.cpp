@@ -4,9 +4,9 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-	int Answer, alength, slength, quotient;
+    int Answer, alength, slength, quotient;
     string s, a, comp;
-	cin >> s;
+    cin >> s;
     while(s.compare("."))
     {
         Answer = alength = 1;
