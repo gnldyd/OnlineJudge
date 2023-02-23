@@ -34,5 +34,10 @@ int main(int argc, char** argv)
         cout << Answer << endl;
         cin >> s;
     }
+<<<<<<< HEAD
     return 0;
 }
+=======
+	return 0;
+}
+>>>>>>> 84b0fc30351e13a6ac461bd0e508053b3c6f7247
