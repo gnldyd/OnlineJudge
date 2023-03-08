@@ -19,8 +19,8 @@ int bfs(int n, int now_r, int now_c, int goal_r, int goal_c)
         {
             position = bfs_positions.front();
             bfs_positions.pop();
-            now_r = position / 200;
-            now_c = position % 200;
+            now_r = position / MAX_N;
+            now_c = position % MAX_N;
             if(now_r == goal_r && now_c == goal_c)
             {
                 return result;
